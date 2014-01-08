@@ -26,5 +26,5 @@ class Cookie(Suite):
 
     def Likelihood(self, flavor, hypo):
         bowl = self.bowls[hypo]
-        likelihood = bowl.eat(data)
+        likelihood = bowl.eat(flavor)
         return likelihood
